@@ -12,8 +12,8 @@ jo
 ken
 pô!!''')
 print('-='*11)
-print('Jogador jogou: {}'.format(itens[jogador]))
-print('Tony jogou: {}'.format(itens[tony_jogada]))
+print('Você jogou: {}'.format(itens[jogador]))
+print('Computador jogou: {}'.format(itens[tony_jogada]))
 print('-='*11)
 if tony_jogada == 0:
 
