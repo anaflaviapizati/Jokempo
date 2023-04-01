@@ -1,7 +1,7 @@
 from random import randint
 
 itens = ('Pedra', 'Papel', 'Tesoura')
-tony_jogada = randint(0, 2)
+computador_jogada = randint(0, 2)
 print('''Escolha: 
 [0] Pedra
 [1] Papel
@@ -13,9 +13,9 @@ ken
 pô!!''')
 print('-='*11)
 print('Você jogou: {}'.format(itens[jogador]))
-print('Computador jogou: {}'.format(itens[tony_jogada]))
+print('Computador jogou: {}'.format(itens[computador_jogada]))
 print('-='*11)
-if tony_jogada == 0:
+if computador_jogada == 0:
 
     if jogador == 0:
         print('EMPATE!')
@@ -26,7 +26,7 @@ if tony_jogada == 0:
     elif jogador == 2:
         print('COMPUTADOR GANHOU!')
 
-elif tony_jogada == 1:
+elif computador_jogada == 1:
 
     if jogador == 0:
 
@@ -40,7 +40,7 @@ elif tony_jogada == 1:
 
         print('VOCÊ GANHOU!')
 
-elif tony_jogada == 2:
+elif computador_jogada == 2:
 
     if jogador == 0:
         print('VOCÊ GANHOU!')
