@@ -1,4 +1,20 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "cSpell.words": [
+        "Aperte",
+        "computador",
+        "EMPATE",
+        "Escolha",
+        "GANHOU",
+        "itens",
+        "jogada",
+        "jogador",
+        "jogou",
+        "Papel",
+        "Pedra",
+        "sair",
+        "Tesoura",
+        "VOCÊ"
+    ]
 }

@@ -2,7 +2,7 @@ from random import randint
 
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador_jogada = randint(0, 2)
-print('''Escolha: 
+print('''Escolha:
 [0] Pedra
 [1] Papel
 [2] Tesoura''')
