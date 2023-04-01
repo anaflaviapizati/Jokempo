@@ -1,2 +1,2 @@
-# Jokempo
- Jogo Pedra papel tesoura para treinar condições aninhadas
+# Jokempô
+ Jogo Pedra papel tesoura para treinar condições aninhadas em python.
